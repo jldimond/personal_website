@@ -2,5 +2,13 @@
 layout: default
 ---
 
-Here's how you link to a [webpage in your site](/teaching/), and
-here's a link to an [external site](https://www.google.com)
+<img style="width=305px;height=435px;float:left;padding:10px;"
+src="/image/profile_photo.jpg" alt="profile picture" width="138" height="197">
+
+I am a PhD student at the [University of Wahsington](https://www.uw.edu). 
+
+My research is listed in on [this page](/research/).
+
+
+If you want a pdf of my CV, you can get that [here](/cv/cv.pdf)
+

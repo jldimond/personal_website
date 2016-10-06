@@ -1,18 +1,22 @@
 # Site settings
 title: James Dimond
 email: jldimond@uw.edu
-description: > # this means to ignore newlines until "baseurl:"
-  I'm a PhD student at UW.
-  I study coral epigenetics. 
+description: "PhD student at the University of Washington studying coral epigenetics"
 # baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://jldimond.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  jldimond
 permalink: /blog/:year/:month/:title.html
+google_analytics: 
 gems:
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # Build settings
 markdown: kramdown
 theme: minima
+disqus:
+  shortname: 
 
+# needed for CI builds:
+exclude: [vendor]
